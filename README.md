@@ -1,27 +1,18 @@
-# ML-Practice
-Practice side projects using common ML libraries like Pandas, Sklearn, etc.
+# House-Predictor
+Predicts house value based on lot sq. ft
 
-Some personal notes:
-2 Types of learning, supervised and unsupervised. Supervised is better for smaller data sets. Supervised includes any Classification algorithms, so Lin Reg, Random Forest, KNN, NB, etc. Unsupervised includes stuff like clustering. 
+# To Run:
+-Used Google Colab to run
+-Need dataset from Kaggle to run this program, which I lost unfortunately, but code can be refactored to work for any other house prices dataset, just make sure it's saved to the same directory as the program. -In Colab, you need to upload the file and the path becomes /content/filename
 
-Libraries to use:
-Pandas
-Numpy
-Sklearn
-Tensforflow
-Matplotlib
+# Notes for me
+.fit() trains the model. Takes an input array and an output array (target values the inputs should map to)
+adjusts model's params to find best-fit line with lowest RSS (sum of residuals). 
 
-Overfitting is when the program too closely follows the model. All it knows is the data points given by the model, so it sucks at classifying any new info bc it has a big sum of residuals. Overcomplicates the problem (ie. too many patterns to classify by, too specific, think about the face recognition model you made and the params it takes. "It's only a lego if it has exactly 4 nubs")
-Underfitting oversimplifies the problem. It sucks at classifying bc there's too few patterns to classify. Ie. just a linear straight line thru the model function. Too vague, think "if it's rectangular, it's a lego"
-Bias vs. Variance
+.reshape() reshapes the 1D input array (a row) to a 2D array (column), which is the input shape that the model takes.
+args (-1, 1): -1 means Numpy should infer the size of one dimension based on the input. The other dimension size is specified by you (1). -1 just handles the calculations for you in cases where you have a big input and calculating the rows * cols of a 2D array would be hard. 
 
-TTT:
-
-
-Facial Recognition:
-
-
-Sentiment Analyzer:
+Program predicts value solely off of lot_sqft; for this to be an accurate model it would need to take more things into account like bedrooms, bathrooms, etc.
 
 
 
