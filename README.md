@@ -1,6 +1,6 @@
 # ML-Practice
-Practice side projects using common ML libraries like Pandas, Sklearn, etc.
-These are all projects I taught while teaching at iCode!! :)
+Practice side projects using common ML libraries like Pandas, Sklearn, etc.\
+These are all projects I taught while teaching at iCode!! :)\\
 
 Each branch contains its own project, so you need to navigate thru the branches. 
 
