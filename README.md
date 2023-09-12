@@ -2,8 +2,9 @@
 Predicts house value based on lot sq. ft
 
 # To Run:
--Used Google Colab to run
--Need dataset from Kaggle to run this program, which I lost unfortunately, but code can be refactored to work for any other house prices dataset, just make sure it's saved to the same directory as the program. -In Colab, you need to upload the file and the path becomes /content/filename
+-Used Google Colab to run\
+-Need dataset from Kaggle to run this program, which I lost unfortunately, but code can be refactored to work for any other house prices dataset, just make sure it's saved to the same directory as the program.\
+-In Colab, you need to upload the file and the path becomes /content/filename
 
 # Notes for me
 .fit() trains the model. Takes an input array and an output array (target values the inputs should map to)
