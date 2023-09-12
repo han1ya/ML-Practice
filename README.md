@@ -4,14 +4,14 @@ These are all projects I taught while teaching at iCode!! :)
 
 Each branch contains its own project, so you need to navigate thru the branches. 
 
-# Libraries used:\
+# Libraries used:
 Pandas\
 Numpy\
 Sklearn\
 Tensforflow\
 Matplotlib
 
-# Random notes/refreshers:\
+# Random notes/refreshers:
 2 Types of learning, supervised and unsupervised. Supervised is better for smaller data sets. Supervised includes any Classification algorithms, so Lin Reg, Random Forest, KNN, NB, etc. Unsupervised includes stuff like clustering. 
 
 
