@@ -1,27 +1,13 @@
-# ML-Practice
-Practice side projects using common ML libraries like Pandas, Sklearn, etc.
+AI that plays tic-tac-toe against you.\
 
-Some personal notes:
-2 Types of learning, supervised and unsupervised. Supervised is better for smaller data sets. Supervised includes any Classification algorithms, so Lin Reg, Random Forest, KNN, NB, etc. Unsupervised includes stuff like clustering. 
-
-Libraries to use:
-Pandas
-Numpy
-Sklearn
-Tensforflow
-Matplotlib
-
-Overfitting is when the program too closely follows the model. All it knows is the data points given by the model, so it sucks at classifying any new info bc it has a big sum of residuals. Overcomplicates the problem (ie. too many patterns to classify by, too specific, think about the face recognition model you made and the params it takes. "It's only a lego if it has exactly 4 nubs")
-Underfitting oversimplifies the problem. It sucks at classifying bc there's too few patterns to classify. Ie. just a linear straight line thru the model function. Too vague, think "if it's rectangular, it's a lego"
-Bias vs. Variance
-
-TTT:
+First part of the code is just implementing a normal TTT game between you and another human user.\
+Second part of the code implements the AI as the second player, and trains it to improve the more games are played.\
 
 
-Facial Recognition:
+# Uses reinforcement learning\
+When the AI wins, the moves it made are reinforced in its statemap 3 times. (basically if 4 was a winning move, instead of the statemap reading 12345678 it'll read 12344445678). So while each move is still picked at "random", the more games the AI has played and won, the more likely it'll be to win again bc it'll have all the good moves reinforced in its statemap. 
 
 
-Sentiment Analyzer:
 
 
 
